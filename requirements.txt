@@ -1,0 +1,10 @@
+google-generativeai
+python-dotenv
+PyPDF2
+numpy
+pandas
+scikit-learn
+tqdm
+streamlit
+spacy
+rapidfuzz
