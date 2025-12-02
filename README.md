@@ -1,4 +1,4 @@
-# 🚀 GenAI Job Application Assistant  
+# GenAI Job Application Assistant  
 AI-powered resume analysis & job-matching tool built using **Python**, **Streamlit**, and **Google Gemini**.
 
 ---
@@ -12,22 +12,6 @@ AI-powered resume analysis & job-matching tool built using **Python**, **Streaml
 - Professional cover letter generation
 - Dark-mode optimized UI
 
----
-
-## 📁 Project Structure
-GENAI-JOB-ASSISTANT/
-│
-├── main.py # Streamlit UI + app flow
-├── scoring.py # Semantic similarity & keyword matching
-├── resume_parser.py # PDF/text extraction & cleaning
-├── jd_parser.py # Skill extraction & preprocessing
-├── generator.py # Bullet point & cover letter generation
-├── config.py # Gemini API configuration
-├── requirements.txt # Dependency list
-├── examples/ # Sample JD, resume & outputs
-└── .env # API keys (ignored)
-
-
 
 ---
 
@@ -37,6 +21,8 @@ GENAI-JOB-ASSISTANT/
 ```bash
 git clone https://github.com/<your-username>/genai-job-assistant.git
 cd genai-job-assistant
+
+```
 
 ## 2️⃣ Create a virtual environment
 macOS / Linux
@@ -48,7 +34,7 @@ source venv/bin/activate
 
 python -m pip install --upgrade pip
 pip install -r requirements.txt
-
+```
 
 Windows (PowerShell)
 
@@ -58,7 +44,7 @@ python -m venv venv
 
 python -m pip install --upgrade pip
 pip install -r requirements.txt
-
+```
 Windows (Command Prompt)
 
 ```bash
@@ -67,6 +53,7 @@ venv\Scripts\activate
 
 python -m pip install --upgrade pip
 pip install -r requirements.txt
+```
 
 ## 3️⃣ Add Gemini API Key (.env file)
 
@@ -78,7 +65,7 @@ MODEL_NAME=gemini-1.5-flash
 ##4️⃣ Run the Application
 ```bash
 streamlit run main.py
-
+```
 
 After running, open:
 
